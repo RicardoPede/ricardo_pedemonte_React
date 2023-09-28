@@ -1,0 +1,27 @@
+.home-container{
+    min-height: 100vh;
+}
+
+.main-container{
+    height: 80vh;
+    overflow-y: auto;
+}
+.taskForm{
+    height: 100%
+}
+.taskList{
+    height: 100%;
+}
+
+@media (max-width: 575px) {
+    .taskForm{
+        height: auto;
+    }
+    .taskList{
+        height: auto;
+    }
+    .main-container{
+        overflow-y: auto;
+    }
+
+}
